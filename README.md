@@ -1,5 +1,6 @@
 # ts-dependencies
 
+TypeScript dependency management without magic.
 
 ## Install
 
