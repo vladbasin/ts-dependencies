@@ -1,8 +1,9 @@
 import { ModuleContract } from './Contracts/ModuleContract';
 import { ServiceCollection } from './ServiceCollection';
 import { ServiceCollectionBuilder } from './ServiceCollectionBuilder';
+import { ServiceProviderContract } from './Contracts/ServiceProviderContract';
 
-export class ServiceProvider {
+export class ServiceProvider implements ServiceProviderContract {
     private readonly _builder: ServiceCollectionBuilder;
     private readonly _services: ServiceCollection;
     private readonly _idAsPropServicesRepresentor: any;

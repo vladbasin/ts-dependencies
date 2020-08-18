@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/ts-dependencies",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript dependency management without magic.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
