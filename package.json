@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/ts-dependencies",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "TypeScript dependency management without magic.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -9,6 +9,10 @@
     },
     "author": "Vlad Basin",
     "license": "GPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladbasin/ts-dependencies.git"
+    },
     "devDependencies": {
         "@types/lodash": "^4.14.159",
         "barrelsby": "^2.2.0",
